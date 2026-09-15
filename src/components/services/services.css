@@ -1,0 +1,53 @@
+.container_services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container_services .card{
+    width: 31%;
+    padding: 50px 40px;
+    background: var(--color-bg-variant);
+    border-radius: 1rem;
+    transition: var(--transition);
+    border: 1px solid transparent;
+
+}
+
+.container_services .card:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+
+}
+
+.container_services .icon{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: var(--color-primary);
+}
+
+.container_services h3{
+    margin-bottom: 20px;
+}
+.container_services p{
+    font-size: 14px;
+}
+
+/*Responsive*/
+@media (max-width: 1024px) {
+    .container_services .card{
+        width: 48%;
+        margin-bottom: 40px;
+
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .container_services .card{
+        width: 100%;
+
+    }
+    
+}
