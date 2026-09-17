@@ -13,22 +13,19 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-.portfolio_item h3{
-    margin: 22px 0 30px;
-    font-size:1.3rem;
-    line-height:1.4;
-    min-height:70px;
+
+.portfolio_item h3 {
+    margin: 22px 0 35px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    min-height: 70px;
 }
 
 .portfolio_item_img{
     border-radius: 15px;
     overflow: hidden;
 }
-.portfolio_item h3{
-    margin: 22px 0 35px;
 
-
-}
 
 .portfolio_item_btns{
     display: flex;
@@ -36,78 +33,48 @@
     margin-bottom: 15px;
 } 
 
-/*Responsive*/
 
 /* Responsive */
 
 @media (max-width: 1024px) {
-    .about_container {
-        grid-template-columns: 1fr;
-        gap: 0;
+    .projects_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .projects_container .portfolio_item {
         width: 100%;
-    }
-
-    .about_me {
-        width: 50%;
-        margin: 2rem auto 4rem;
-    }
-
-    .about_content {
-        width: 100%;
-    }
-
-    .about_content p {
-        margin: 1rem 0 1.5rem;
-    }
-
-    .about_content .btn {
-        margin: 1rem auto 0;
+        margin-bottom: 0;
+        box-sizing: border-box;
     }
 }
 
 @media (max-width: 600px) {
-    .about {
-        width: 100%;
-        overflow-x: hidden;
-    }
-
-    .about_container {
-        width: 100%;
+    .projects_container {
+        display: grid;
         grid-template-columns: 1fr;
-        gap: 0;
-    }
-
-    .about_me {
-        width: 80%;
-        margin: 0 auto 3rem;
-    }
-
-    .about_cards {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 2rem;
         width: 100%;
     }
 
-    .about_card {
+    .projects_container .portfolio_item {
         width: 100%;
-        box-sizing: border-box;
+        margin-bottom: 0;
         padding: 1.5rem;
-    }
-
-    .about_content {
-        width: 100%;
-        text-align: center;
-    }
-
-    .about_content p {
-        width: 100%;
-        margin: 1.5rem 0;
-        line-height: 1.7;
         box-sizing: border-box;
     }
 
-    .about_content .btn {
-        display: inline-block;
-        margin: 1rem auto 0;
+    .portfolio_item h3 {
+        margin: 1.5rem 0 2rem;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        min-height: auto;
+    }
+
+    .portfolio_item_btns {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
     }
 }
