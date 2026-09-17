@@ -27,7 +27,7 @@ const portfolioData = [
     image: IMG3,
     title: 'Portfolio Item 3',
     github: 'https://github.com/mohamedelsaid-dev/javascript-crud-app',
-    demo: 'https://javascript-crud-jkjc9r7by-mohamedelsaid.vercel.app/'
+    demo: 'https://vercel.com/mohamedelsaid/javascript-crud'
   },
   {
     id: 4,
