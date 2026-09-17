@@ -20,7 +20,7 @@ const portfolioData = [
     image: IMG2,
     title: 'Personal Portfolio Website',
     github: 'https://github.com/mohamedelsaid-dev/portfolio',
-    demo: 'portfolio-mohamedelsaid.vercel.app',
+    demo: 'https://portfolio-mohamedelsaid.vercel.app/',
   },
   {
     id: 3,
