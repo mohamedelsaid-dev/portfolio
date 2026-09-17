@@ -27,26 +27,26 @@ const portfolioData = [
     image: IMG3,
     title: 'Portfolio Item 3',
     github: 'https://github.com/mohamedelsaid-dev/javascript-crud-app',
-    demo: 'https://javascript-crud-app-six.vercel.app'
+    demo: 'https://javascript-crud-jkjc9r7by-mohamedelsaid.vercel.app/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Portfolio Item 4',
+    title: '🚧 Currently in Development',
     github: 'https://github.com/project4',
     demo: 'https://demo4.com'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Portfolio Item 5',
+    title: '🚧 Currently in Development',
     github: 'https://github.com/project5',
     demo: 'https://demo5.com'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Portfolio Item 6',
+    title: '🚧 Currently in Development',
     github: 'https://github.com/project6',
     demo: 'https://demo6.com'
   }
