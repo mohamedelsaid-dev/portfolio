@@ -18,16 +18,16 @@ const portfolioData = [
   {
     id: 2,
     image: IMG2,
-    title: 'Portfolio Item 2',
-    github: 'https://github.com/project2',
-    demo: 'https://demo2.com'
+    title: 'Personal Portfolio Website',
+    github: 'https://github.com/mohamedelsaid-dev/portfolio',
+    demo: 'portfolio-mohamedelsaid.vercel.app',
   },
   {
     id: 3,
     image: IMG3,
     title: 'Portfolio Item 3',
-    github: 'https://github.com/project3',
-    demo: 'https://demo3.com'
+    github: 'https://github.com/mohamedelsaid-dev/javascript-crud-app',
+    demo: 'https://javascript-crud-app-six.vercel.app'
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ function Projects() {
       <div className="container projects_container">
 
         {portfolioData.map(({ id, image, title, github, demo }) => (
-          <article  key={id} className='portfolio_item'>
+          <article key={id} className='portfolio_item'>
             <div className="portfolio_item_img">
               <img src={image} alt="" />
             </div>
